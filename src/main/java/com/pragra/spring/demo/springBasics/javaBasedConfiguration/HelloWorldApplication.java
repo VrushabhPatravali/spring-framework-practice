@@ -14,6 +14,5 @@ public class HelloWorldApplication {
         //System.out.println(context.getBean("person"));
         System.out.println(context.getBean(Person.class)); // object of Person of @Primary method/bean will be returned
         System.out.println(context.getBean("testName"));
-
     }
 }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean name="elephant" class="com.pragra.spring.demo.springBasics.game.Elephant"></bean>
+    <bean name="eagle" class="com.pragra.spring.demo.springBasics.game.Eagle"></bean>
+    <bean name="lion" class="com.pragra.spring.demo.springBasics.game.Lion"></bean>
+    <bean name="characterRunner1" class="com.pragra.spring.demo.springBasics.game.CharacterRunner">
+        <constructor-arg ref="elephant"></constructor-arg>
+    </bean>
+    <bean name="characterRunner2" class="com.pragra.spring.demo.springBasics.game.CharacterRunner">
+        <constructor-arg ref="eagle"></constructor-arg>
+    </bean>
+
+</beans>

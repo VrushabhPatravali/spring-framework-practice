@@ -25,15 +25,15 @@ public class SpringBasicsApplication {
 //		characterRunner.run();
 
 		// xml based configuration
-		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
-		System.out.println(context.getBean("elephant"));
-		System.out.println(context.getBean("characterRunner1"));
-		System.out.println(context.getBean("characterRunner2"));
-		System.out.println(context.getBean("eagle"));
-		System.out.println(context.getBean("lion"));
-
-		CharacterRunner runner1 = (CharacterRunner) context.getBean("characterRunner1");
-		runner1.run();
+//		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
+//		System.out.println(context.getBean("elephant"));
+//		System.out.println(context.getBean("characterRunner1"));
+//		System.out.println(context.getBean("characterRunner2"));
+//		System.out.println(context.getBean("eagle"));
+//		System.out.println(context.getBean("lion"));
+//
+//		CharacterRunner runner1 = (CharacterRunner) context.getBean("characterRunner1");
+//		runner1.run();
 
 	}
 

@@ -2,7 +2,9 @@ package com.pragra.spring.demo.springBasics.RESTApplication;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
 
+//@Component - this stopped the execution
 public class Course {
     int id;
 

@@ -1,5 +1,9 @@
 package com.pragra.spring.demo.springBasics.game;
 
+
+import org.springframework.stereotype.Component;
+
+@Component
 public class Eagle implements CharacterConsole{
 
     public void move() {
